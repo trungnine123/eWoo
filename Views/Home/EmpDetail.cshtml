@@ -1,0 +1,54 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width"
+    <meta charset="utf-8" />
+    <title>EmpDetail</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/home/index">Home Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/home/index">Our Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/home/index">Contac Us</a>
+            </li>
+        </ul>
+    </nav>
+    @{
+        string gender;
+        if (ViewBag.Gender =="M")
+        {
+            gender = "Male";
+        }
+        else
+        {
+            gender = "Female";
+        }
+    }
+    <div class="container-fluid">
+        <table class="table w-40 m-1">
+            <tr>
+                <td>Employee's ID</td>
+                <td>@ViewBag.EmpID</td>
+            </tr>
+            <tr>
+                <td>Employee's Name</td>
+                <td>@ViewBag.Name</td>
+            </tr>
+            <tr>
+                <td>Employee's Salary</td>
+                <td>@ViewBag.Salary</td>
+            </tr>
+            <tr>
+                <td>Employee's Gender</td>
+                <td>@gender</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

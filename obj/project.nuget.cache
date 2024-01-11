@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4H53G1NIai8Zhtm3q9Jb1T4gsrvHJaUbfwwXLkV0/k0pUwTXGHzyUNm29DTeBDdAKpIo0FrRRi6RbrmP0+5Ijg==",
+  "success": true,
+  "projectFilePath": "D:\\Application Development\\eWoo\\eWoo\\eWoo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}
